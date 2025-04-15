@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,13 +29,182 @@
       attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
-    // Ejemplo de un punto - aquí deberías agregar todos los puntos reales
-    var marker = L.circleMarker([-2.1212775, -79.9247672], {
+    L.circleMarker([-2.1212775, -79.9247672], {
       color: '#FF6B6B',
-      radius: 8,
-      fillOpacity: 0.8
-    }).addTo(map).bindPopup(`<b>Guayaquil / Juan Montalvo</b><br><b>Iglesia:</b> Nuestra Señora del Agua Santa<br><b>Año:</b> 2004<br><b>Duración:</b> 2 años<br><b>Notas:</b> Misión juvenil e infantil`);
-
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Juan Montalvo</strong><br><b>Iglesia:</b> Iglesia Nuestra Señora del Agua Santa<br><b>Año:</b> 2004<br><b>Duración:</b> 2 años<br><b>Notas:</b> Misión juvenil e infantil en los grupos 'Niños para Cristo', 'Jóvenes para Cristo' y 'Siervos para Cristo'`);
+    
+    L.circleMarker([-2.1149, -79.9555015], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / El Fortín</strong><br><b>Iglesia:</b> Iglesia Nuestra Señora de la Consolata<br><b>Año:</b> 2007<br><b>Duración:</b> 4 años<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.0985339, -79.9538656], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Paraíso de la Flor</strong><br><b>Iglesia:</b> Capilla Santa Narcisa de Jesús<br><b>Año:</b> 2007<br><b>Duración:</b> 4 años<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.1148257, -79.9699981], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Balerio Estacio</strong><br><b>Iglesia:</b> Iglesia San José Obrero<br><b>Año:</b> 2007<br><b>Duración:</b> 4 años<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.1216201, -79.9686821], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Entrada de la 8</strong><br><b>Iglesia:</b> Iglesia Preciosísima Sangre de Cristo<br><b>Año:</b> 2008<br><b>Duración:</b> 4 años<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.1506362, -79.9302615], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Mapasingue - San Pedro Alcántara</strong><br><b>Iglesia:</b> Iglesia San Pedro Alcántara<br><b>Año:</b> 2012<br><b>Duración:</b> 3 años<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.1549115, -79.9250132], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Mapasingue - San Francisco Xavier</strong><br><b>Iglesia:</b> Iglesia San Francisco Xavier<br><b>Año:</b> 2012<br><b>Duración:</b> 3 años<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.1425362, -79.9383327], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Prosperina - San Juan Diego de la Cruz</strong><br><b>Iglesia:</b> Iglesia San Juan Diego de la Cruz<br><b>Año:</b> 2013<br><b>Duración:</b> 2 años<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.1203397, -79.9563741], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Sociovivienda</strong><br><b>Iglesia:</b> Iglesia Nuestra Señora del Carmen<br><b>Año:</b> 2013<br><b>Duración:</b> 2 años<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.0892908, -79.9414087], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Montebello</strong><br><b>Iglesia:</b> Iglesia Nuestra Señora del Montebello<br><b>Año:</b> 2014<br><b>Duración:</b> 1 año<br><b>Notas:</b> Misiones en iglesia y casas`);
+    
+    L.circleMarker([-2.6740559, -79.6213815], {
+      color: '#FFA94D',
+      fillColor: '#FFA94D',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Naranjal</strong><br><b>Iglesia:</b> Iglesia San José de Naranjal<br><b>Año:</b> 2015<br><b>Duración:</b> 1 año<br><b>Notas:</b> Primera misión fuera de Guayaquil`);
+    
+    L.circleMarker([-2.4239828, -79.3398768], {
+      color: '#FFD43B',
+      fillColor: '#FFD43B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>La Troncal</strong><br><b>Iglesia:</b> Desconocido<br><b>Año:</b> 2015<br><b>Duración:</b> 1 año<br><b>Notas:</b> Segunda misión fuera de Guayaquil`);
+    
+    L.circleMarker([-1.5500851, -79.5356334], {
+      color: '#8CE99A',
+      fillColor: '#8CE99A',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Pueblo Viejo</strong><br><b>Iglesia:</b> Iglesia San Francisco de Pueblo Viejo<br><b>Año:</b> 2015<br><b>Duración:</b> 3 años<br><b>Notas:</b> Encargados en Los Ríos`);
+    
+    L.circleMarker([-1.5553079, -79.752127], {
+      color: '#74C0FC',
+      fillColor: '#74C0FC',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Vinces</strong><br><b>Iglesia:</b> Iglesia San Lorenzo de Vinces<br><b>Año:</b> 2018<br><b>Duración:</b> 1 año<br><b>Notas:</b> Encargados en Los Ríos`);
+    
+    L.circleMarker([-1.4370419, -79.7553308], {
+      color: '#B197FC',
+      fillColor: '#B197FC',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Palenque</strong><br><b>Iglesia:</b> Iglesia San Nicolás de Tolentino<br><b>Año:</b> 2018<br><b>Duración:</b> 1 año<br><b>Notas:</b> Encargados en Los Ríos`);
+    
+    L.circleMarker([-1.8358275, -79.6088303], {
+      color: '#63E6BE',
+      fillColor: '#63E6BE',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Pimocha</strong><br><b>Iglesia:</b> Iglesia San Juan Bautista<br><b>Año:</b> 2018<br><b>Duración:</b> 1 año<br><b>Notas:</b> Encargados en Los Ríos`);
+    
+    L.circleMarker([-2.1279092, -79.9257237], {
+      color: '#FF6B6B',
+      fillColor: '#FF6B6B',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Guayaquil / Julio Cartagena & La Gaviota</strong><br><b>Iglesia:</b> Capilla Nuestra Señora del Pilar<br><b>Año:</b> 2020<br><b>Duración:</b> Hasta la actualidad<br><b>Notas:</b> Catequistas y grupos domésticos en 'Vive en Cristo'`);
+    
+    L.circleMarker([-1.5727375, -79.4731094], {
+      color: '#FFE066',
+      fillColor: '#FFE066',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Catarama</strong><br><b>Iglesia:</b> Iglesia Nuestra Señora del Carmen<br><b>Año:</b> 2016<br><b>Duración:</b> 3 años<br><b>Notas:</b> Encargados en Los Ríos`);
+    
+    L.circleMarker([-1.5715502, -79.4689259], {
+      color: '#69DB7C',
+      fillColor: '#69DB7C',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Ricaurte</strong><br><b>Iglesia:</b> Iglesia San Pedro<br><b>Año:</b> 2016<br><b>Duración:</b> 3 años<br><b>Notas:</b> Encargados en Los Ríos`);
+    
+    L.circleMarker([-1.9879963, -79.3580393], {
+      color: '#A5D8FF',
+      fillColor: '#A5D8FF',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Mata de Cacao</strong><br><b>Iglesia:</b> Iglesia Santa Rosa de Lima<br><b>Año:</b> 2017<br><b>Duración:</b> 2 años<br><b>Notas:</b> Encargados en Los Ríos`);
+    
+    L.circleMarker([-1.624725, -79.5619194], {
+      color: '#FF8787',
+      fillColor: '#FF8787',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>San Juan</strong><br><b>Iglesia:</b> Iglesia San Juan<br><b>Año:</b> 2017<br><b>Duración:</b> 2 años<br><b>Notas:</b> Encargados en Los Ríos`);
+    
+    L.circleMarker([-1.7806411, -79.6810815], {
+      color: '#FCC419',
+      fillColor: '#FCC419',
+      radius: 10,
+      fillOpacity: 0.7,
+      weight: 2
+    }).addTo(map).bindPopup(`<strong>Baba</strong><br><b>Iglesia:</b> Iglesia San Francisco de Asís<br><b>Año:</b> 2017<br><b>Duración:</b> 2 años<br><b>Notas:</b> Encargados en Los Ríos`);
+    
   </script>
 </body>
 </html>
