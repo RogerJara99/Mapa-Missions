@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapa de Misiones - Estética Suave</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; }
+    .leaflet-popup-content-wrapper {
+      background: #f8f9fa;
+      color: #212529;
+      font-size: 14px;
+    }
+    .leaflet-popup-tip {
+      background: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    var map = L.map('map').setView([-1.8, -79.5], 7);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Ejemplo de un punto - aquí deberías agregar todos los puntos reales
+    var marker = L.circleMarker([-2.1212775, -79.9247672], {
+      color: '#FF6B6B',
+      radius: 8,
+      fillOpacity: 0.8
+    }).addTo(map).bindPopup(`<b>Guayaquil / Juan Montalvo</b><br><b>Iglesia:</b> Nuestra Señora del Agua Santa<br><b>Año:</b> 2004<br><b>Duración:</b> 2 años<br><b>Notas:</b> Misión juvenil e infantil`);
+
+  </script>
+</body>
+</html>
